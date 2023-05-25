@@ -1,0 +1,57 @@
+.color-fondo{
+    /*background-image: url("../img/bg2.jpg");*/
+	background-image: url("./ver.jpg");
+    background-size: cover;
+}
+
+.button {
+    background-color: #28b82d;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 8px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button2 {
+    background-color: #008CBA;
+}
+
+/* Blue */
+.button3 {
+    background-color: #f44336;
+}
+
+/* Red */
+.button4 {
+    background-color: #e7e7e7;
+    color: black;
+}
+
+/* Gray */
+.button5 {
+    background-color: #555555;
+}
+
+/* Black */
+
+#charCount {
+    font-size: 12px;
+    color: black;
+}
+
+#charCount1 {
+    font-size: 12px;
+    color: black;
+}
+
+#charCount2 {
+    font-size: 12px;
+    color: black;
+}

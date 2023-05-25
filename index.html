@@ -1,0 +1,17 @@
+<textarea id="myTextarea" maxlength="100" oninput="updateCharacterCount()"></textarea>
+<p id="characterCount">Caracteres restantes: 100</p>
+
+
+<script>
+	function updateCharacterCount() {
+	const textarea = document.getElementById('myTextarea');
+	const characterCount = document.getElementById('characterCount');
+	const maxLength = textarea.getAttribute('maxlength');
+	const remainingCharacters = maxLength - textarea.value.length;
+  
+	characterCount.textContent = `Caracteres restantes: ${remainingCharacters}`;
+  }
+
+</script>
+
+
